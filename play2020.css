@@ -326,11 +326,11 @@ html, body {
 	 -moz-transition-property: top, left;
 }
  .tile.tile-2 {
-	 background: #eee4da;
+	 background: #f9f6f2;
 	 background-image: url('2020_images/2.jpg');
 	 }
  .tile.tile-4 {
-	 background: #e40000;
+	 background: #f9f6f2;
 	 background-image: url('2020_images/4.jpg');
 }
  .tile.tile-8 {
