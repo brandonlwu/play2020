@@ -373,6 +373,11 @@ html, body {
 	 background-image: url('2020_images/2048.jpg');
 }
 
+.tile.tile-4096 {
+	 color: #f9f6f2;
+	 background-image: url('2020_images/4096.jpg');
+}
+
  @-webkit-keyframes appear {
 	 0% {
 		 opacity: 0;
@@ -726,6 +731,11 @@ html, body {
 }
 
  .tile.tile-2048 {
+	 color: #f9f6f2;
+	 background-size: 58px 58px;
+}
+	 
+	 .tile.tile-4096 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
 }
