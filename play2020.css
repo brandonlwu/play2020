@@ -326,11 +326,11 @@ html, body {
 	 -moz-transition-property: top, left;
 }
  .tile.tile-2 {
-	 background: #f9f6f2;
+	 color: #f9f6f2;
 	 background-image: url('2020_images/2.jpg');
 	 }
  .tile.tile-4 {
-	 background: #f9f6f2;
+	 color: #f9f6f2;
 	 background-image: url('2020_images/4.jpg');
 }
  .tile.tile-8 {
@@ -682,10 +682,12 @@ html, body {
 		 margin-top: 30px !important;
 	}
 	 
-		 .tile.tile-2 {
+ .tile.tile-2 {
+	 color: #f9f6f2;
 	 background-size: 58px 58px;
 	 }
  .tile.tile-4 {
+	 color: #f9f6f2;
 	 background-size: 58px 58px;
 }
  .tile.tile-8 {
