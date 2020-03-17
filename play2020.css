@@ -670,7 +670,7 @@ html, body {
 		 margin-top: 20px;
 	}
 	 .tile {
-		 font-size: 35px;
+		 font-size: 0px;
 	}
 	 .game-message p {
 		 font-size: 30px !important;
@@ -681,5 +681,53 @@ html, body {
 	 .game-message .lower {
 		 margin-top: 30px !important;
 	}
+	 
+	 .tile.tile-2 {
+	 background: #eee4da;
+	 background-image: url('phone_2020_images/2.jpg');
+	 }
+ .tile.tile-4 {
+	 background: #e40000;
+	 background-image: url('phone_2020_images/4.jpg');
+}
+ .tile.tile-8 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/8.jpg');
+}
+ .tile.tile-16 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/16.jpg');
+}
+ .tile.tile-32 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/32.jpg');
+}
+ .tile.tile-64 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/64.jpg');
+}
+ .tile.tile-128 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/128.jpg');
+}
+ .tile.tile-256 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/256.jpg');
+}
+
+ .tile.tile-512 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/512.jpg');
+}
+
+ .tile.tile-1024 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/1024.jpg');
+}
+
+ .tile.tile-2048 {
+	 color: #f9f6f2;
+	 background-image: url('phone_2020_images/2048.jpg');
+}
 }
  
