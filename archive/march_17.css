@@ -326,49 +326,49 @@ html, body {
 	 -moz-transition-property: top, left;
 }
  .tile.tile-2 {
-	 background-image: url('316/2.jpg');
+	 background-image: url('317/2.jpg');
 	 }
  .tile.tile-4 {
-	 background-image: url('316/4.jpg');
+	 background-image: url('317/4.jpg');
 }
  .tile.tile-8 {
 	 color: #f9f6f2;
-	 background-image: url('316/8.jpg');
+	 background-image: url('317/8.jpg');
 }
  .tile.tile-16 {
 	 color: #f9f6f2;
-	 background-image: url('316/16.jpg');
+	 background-image: url('317/16.jpg');
 }
  .tile.tile-32 {
 	 color: #f9f6f2;
-	 background-image: url('316/32.jpg');
+	 background-image: url('317/32.jpg');
 }
  .tile.tile-64 {
 	 color: #f9f6f2;
-	 background-image: url('316/64.jpg');
+	 background-image: url('317/64.jpg');
 }
  .tile.tile-128 {
 	 color: #f9f6f2;
-	 background-image: url('316/128.jpg');
+	 background-image: url('317/128.jpg');
 }
  .tile.tile-256 {
 	 color: #f9f6f2;
-	 background-image: url('316/256.jpg');
+	 background-image: url('317/256.jpg');
 }
 
  .tile.tile-512 {
 	 color: #f9f6f2;
-	 background-image: url('316/512.jpg');
+	 background-image: url('317/512.jpg');
 }
 
  .tile.tile-1024 {
 	 color: #f9f6f2;
-	 background-image: url('316/1024.jpg');
+	 background-image: url('317/1024.jpg');
 }
 
  .tile.tile-2048 {
 	 color: #f9f6f2;
-	 background-image: url('316/2048.jpg');
+	 background-image: url('317/2048.jpg');
 }
 
  @-webkit-keyframes appear {
