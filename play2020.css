@@ -806,6 +806,7 @@ html, body {
   height: 58px;
   width: 58px; 
   border-radius: 2px;
+  background-size: 58px 58px;
 }
 }
  
