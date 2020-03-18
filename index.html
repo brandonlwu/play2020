@@ -15,7 +15,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115956899-2"></script>
@@ -106,14 +106,6 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
-  <script> 
-	  $(document).ready( function() {
-		for (let i = 1; i <=22; i++) {
-			var newNode = document.createElement("div");
-			newNode.style.backgroundImage = ("url('profiles/" + i +".jpg')");
-			document.getElementById("grid-thanks").appendChild(newNode);
-		}
-});
-	</script>
+  <script src="thanks.js"></script>
 </body>
 </html>
