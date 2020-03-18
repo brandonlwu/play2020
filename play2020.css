@@ -511,7 +511,7 @@ html, body {
 	 margin-top: 50px;
 }
 
-.grid-thanks {
+#grid-thanks {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 14.75px;
@@ -520,7 +520,7 @@ html, body {
 	border-radius: 5px;
 }
 
-.grid-thanks > div {
+#grid-thanks > div {
   background-color: rgba(238, 228, 218, .35);
   border: 1px;
   text-align: center;
@@ -789,7 +789,7 @@ html, body {
 	 background-size: 58px 58px;
 }
 	 
-.grid-thanks > div {
+#grid-thanks > div {
   background-color: rgba(238, 228, 218, .35);
   border: 1px;
   text-align: center;
