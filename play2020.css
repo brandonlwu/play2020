@@ -15,7 +15,7 @@ html, body {
 	 clear: both;
 }
  h1.title {
-	 font-size: 80px;
+	 font-size: 55px;
 	 font-weight: bold;
 	 margin: 0;
 	 display: block;
@@ -77,6 +77,48 @@ html, body {
 	 color: #eee4da;
 }
  .score-container .score-addition {
+	 position: absolute;
+	 right: 30px;
+	 color: red;
+	 font-size: 25px;
+	 line-height: 25px;
+	 font-weight: bold;
+	 color: rgba(119, 110, 101, .9);
+	 z-index: 100;
+	 -webkit-animation: move-up 600ms ease-in;
+	 -moz-animation: move-up 600ms ease-in;
+	 -webkit-animation-fill-mode: both;
+	 -moz-animation-fill-mode: both;
+}
+
+ .best-container {
+	 position: relative;
+	 float: right;
+	 background: #bbada0;
+	 padding: 15px 25px;
+	 font-size: 25px;
+	 height: 25px;
+	 line-height: 47px;
+	 font-weight: bold;
+	 border-radius: 3px;
+	 color: white;
+	 margin-top: 8px;
+	 margin-right: 8px;
+	 
+}
+ .best-container:after {
+	 position: absolute;
+	 width: 100%;
+	 top: 10px;
+	 left: 0;
+	 content: "Best";
+	 text-transform: uppercase;
+	 font-size: 13px;
+	 line-height: 13px;
+	 text-align: center;
+	 color: #eee4da;
+}
+ .best-container .score-addition {
 	 position: absolute;
 	 right: 30px;
 	 color: red;
@@ -326,11 +368,11 @@ html, body {
 	 -moz-transition-property: top, left;
 }
  .tile.tile-2 {
-	 color: #f9f6f2;
+	 background: #eee4da;
 	 background-image: url('2020_images/2.jpg');
 	 }
  .tile.tile-4 {
-	 color: #f9f6f2;
+	 background: #e40000;
 	 background-image: url('2020_images/4.jpg');
 }
  .tile.tile-8 {
@@ -371,11 +413,6 @@ html, body {
  .tile.tile-2048 {
 	 color: #f9f6f2;
 	 background-image: url('2020_images/2048.jpg');
-}
-
-.tile.tile-4096 {
-	 color: #f9f6f2;
-	 background-image: url('2020_images/4096.jpg');
 }
 
  @-webkit-keyframes appear {
@@ -475,6 +512,27 @@ html, body {
  .game-explanation {
 	 margin-top: 50px;
 }
+
+.grid-thanks {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 14.75px;
+	background-color: #bbada0;
+	padding: 14.75px;
+	border-radius: 5px;
+}
+
+.grid-thanks > div {
+  background-color: rgba(238, 228, 218, .35);
+  border: 1px;
+  text-align: center;
+  font-size: 30px;
+  height: 106.25px;
+  width: 106.25px; 
+  border-radius: 3px;
+}
+
+
  @media screen and (max-width: 480px) {
 	 html, body {
 		 font-size: 15px;
@@ -687,12 +745,12 @@ html, body {
 		 margin-top: 30px !important;
 	}
 	 
- .tile.tile-2 {
-	 color: #f9f6f2;
+	 .tile.tile-2 {
+	 background: #eee4da;
 	 background-size: 58px 58px;
 	 }
  .tile.tile-4 {
-	 color: #f9f6f2;
+	 background: #e40000;
 	 background-size: 58px 58px;
 }
  .tile.tile-8 {
@@ -710,7 +768,6 @@ html, body {
  .tile.tile-64 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
-}
  .tile.tile-128 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
@@ -731,11 +788,6 @@ html, body {
 }
 
  .tile.tile-2048 {
-	 color: #f9f6f2;
-	 background-size: 58px 58px;
-}
-	 
-	 .tile.tile-4096 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
 }
