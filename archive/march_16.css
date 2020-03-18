@@ -326,11 +326,9 @@ html, body {
 	 -moz-transition-property: top, left;
 }
  .tile.tile-2 {
-	 background: #eee4da;
 	 background-image: url('316/2.jpg');
 	 }
  .tile.tile-4 {
-	 background: #e40000;
 	 background-image: url('316/4.jpg');
 }
  .tile.tile-8 {
@@ -683,11 +681,9 @@ html, body {
 	}
 	 
 	 .tile.tile-2 {
-	 background: #eee4da;
 	 background-size: 58px 58px;
 	 }
  .tile.tile-4 {
-	 background: #e40000;
 	 background-size: 58px 58px;
 }
  .tile.tile-8 {
@@ -705,6 +701,7 @@ html, body {
  .tile.tile-64 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
+	 }
  .tile.tile-128 {
 	 color: #f9f6f2;
 	 background-size: 58px 58px;
